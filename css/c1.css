@@ -2,13 +2,6 @@ body{
     margin: 0;
 }
 
-button{
-    font-size: 12px;
-    color: white;
-    background-color: #004c86;
-    padding: 10px;
-}
-
 nav{
     
 }
@@ -38,6 +31,13 @@ nav ul div{
     margin: 0 30px;
 }
 
+.button-search{
+    font-size: 12px;
+    color: white;
+    background-color: #004c86;
+    padding: 10px;
+}
+
 .barra-azul{
     background-color: #004c86;
     height: 45px;
@@ -65,10 +65,12 @@ header .barra-busqueda{
 .contenedor h2{
     padding: 20px 0;
     border-bottom: 1px solid gray;
+    margin-top: 0;
 }
 
 .categorias{
     background-color: #f7f7f7;
+    padding-bottom: 35px;
 }
 
 .categorias-imagenes{
@@ -93,4 +95,60 @@ header .barra-busqueda{
 }
 .right{
     width: 410px;
+}
+
+.portada{
+    height: 440px;
+    background-image: url(../images/portada.png);
+    background-size: cover;
+    display: flex;
+    text-align: center;
+}
+
+.button-portada{
+    font-size: 12px;
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    padding: 15px;
+}
+
+.productos{
+    background-color: #f7f7f7; 
+}
+.productos .contenedor ul{
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.foto-producto{
+    height: 240px;
+}
+
+.producto{
+    text-align: center;
+}
+
+.portada2{
+    background-image: url(../images/portada2.png);
+    background-size: cover;
+    height: 250px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+footer{
+    background-color: #004c86;
+}
+
+.pago{
+    background-color: blue;
+    height: 70px;
 }
