@@ -148,7 +148,24 @@ footer{
     background-color: #004c86;
 }
 
+.footer{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+}
+
+.footer div{
+    flex-basis: 0;
+}
+
 .pago{
-    background-color: blue;
-    height: 70px;
+    background-color: #162e7e;
+    text-align: center;
+    color: white;
+}
+
+.pago img{
+    margin: 8px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
